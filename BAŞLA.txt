@@ -1,0 +1,18 @@
+DONUTLAUNCHER — BAŞLANGIÇ
+
+Bu ZIP, DonutLauncher Android uygulamasının proje dosyalarını içerir.
+
+APK üretmek için en kolay yöntem:
+1) ZIP'i bir bilgisayara çıkar.
+2) Android Studio'yu aç ve DonutLauncher klasörünü seçerek projeyi aç.
+3) JDK 17 ve Android SDK Platform 35 kurulu olsun.
+4) Gradle senkronizasyonu bitince Build > Build APK(s) seç.
+5) APK burada oluşur: app/build/outputs/apk/debug/app-debug.apk
+
+Alternatif olarak projeyi GitHub'a yükle ve Actions > Build DonutLauncher APK > Run workflow çalıştır. İşlem tamamlanınca DonutLauncher-debug-apk artifact'ini indir.
+
+ÖNEMLİ:
+- Bu sürüm Minecraft Bedrock'ın Android uygulamasını başlatmak içindir; Java Edition / PojavLauncher launcher'ı değildir.
+- Minecraft'ın resmî uygulaması ayrıca kurulu olmalıdır.
+- Profil önerileri Minecraft'ın grafik ayarlarını otomatik değiştirmez. Uygulama, üçüncü taraf bir uygulamadan canlı FPS okumayı garanti edemez ve FPS artışına garanti vermez.
+- APK bu çalışma ortamında derlenmedi; bu ZIP kaynak projedir. Gerçek APK, yukarıdaki derleme yöntemlerinden biriyle oluşturulur.
